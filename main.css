@@ -39,6 +39,7 @@ img {
     border-radius: 10px;
     text-align: center;
     overflow: hidden;
+    position: relative;
 }
 
 .card p {
@@ -101,4 +102,10 @@ text-decoration: none;
     border-radius: unset;
     border: none;
     cursor: pointer;
+}
+
+.card h3 {
+   position: absolute;
+   top: 25px;
+   left: 20%;
 }
